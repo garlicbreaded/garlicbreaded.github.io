@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(to right, #ff8a00, #e52a6f);
+    }
+
+    .container {
+      text-align: center;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 40px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 40px;
+    }
+
+    .countdown {
+      font-size: 24px;
+      color: #888;
+      margin-bottom: 20px;
+    }
+
+    .email-input {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .email-input input[type="email"] {
+      width: 300px;
+      padding: 10px;
+      border-radius: 4px;
+      border: none;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .email-input input[type="submit"] {
+      padding: 10px 20px;
+      margin-left: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .email-input input[type="submit"]:hover {
+      background-color: #555;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .footer a {
+      color: #888;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="logo">Garlicbreaded</h1>
+    <p class="description">Garlicbreaded empowers creators to plan and report on social media content.</p>
+    <div class="countdown">
+      <p>Stay tuned for the launch.</p>
+    </div>
+    <form class="email-input" action="#" method="post">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <input type="submit" value="Notify Me">
+    </form>
+    <div class="footer">
+      <a href="/terms.html">Terms of Service</a> | <a href="/privacy.html">Privacy Policy</a>
+    </div>
+  </div>
+</body>
+
+</html>
